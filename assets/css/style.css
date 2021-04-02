@@ -1,14 +1,17 @@
-*{ /* Mise à zéro des marges */
-    margin: 0;
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 /* Rectangle Vert */
 .green
 {
     background-color: chartreuse;
     width: 80%;
-    height: 50px;
-    display: flex;
-    float: left;
+    height: 50px;  
 }
 
 /* Rectangle bleu */
@@ -17,68 +20,70 @@
     background-color: blue;
     width: 20%;
     height: 50px;
-    display: flex;
-    float: left;
+    
+    
 }
-
 /* Rectangle rouge */
 .red
 {
     background-color: red;
     width: 40%;
     height: 150px;
+}
+
+.bloc{
+    width: 60%;
+    height: 150px;
     display: flex;
-    float: left;
+    flex-wrap: wrap;
 }
 
 /* Rectangle orange */
 .ora
 {
     background-color: orange;
-    width: 30%;
+    width: 50%;
     height: 75px;
-    display: flex;
-    float: left;
 }
 
 /* Rectangle bleu clair */
 .bluec
 {
     background-color: skyblue;
-    width: 30%;
+    width: 50%;
     height: 75px;
-    display: flex;
-    float: left;
+   
+    
 }
 
 /* Rectangle jaune */
 .yellow
 {
     background-color: yellow;
-    width: 20%;
+    width: 33%;
     height: 75px;
-    display: flex;
-    float: left;
+    
+   
 }
 
 /* Rectangle vert foncé */
 .greenf
 {
     background-color:mediumseagreen;
-    width: 20%;
+    width: 33%;
     height: 75px;
-    display: flex;
-    float: left;
+    
+    
 }
 
 /* Rectangle orange foncé */
 .oraf
 {
     background-color: orangered;
-    width: 20%;
+    width: 33%;
     height: 75px;
-    display: flex;
-    float: left;
+    
+    
 }
 
 /* Rectangle noir */
@@ -87,6 +92,6 @@
     background-color:darkslategrey;
     width: 100%;
     height: 200px;
-    display: flex;
-    float: left;
+    
+
 }
